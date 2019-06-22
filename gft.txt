@@ -1,0 +1,33 @@
+  }
+    if (msg.content === '.tradeknifeTajgakodbyYuu') {
+	  msg.channel.send(`Czy mam polaczyc ze steam? tak/nie? `)
+  }
+    if (msg.content === 'nie') {
+	  msg.channel.send(`Nie polaczyles ze steam bot'em nie mozesz przeprowadzic wymiany! `)
+  }
+    if (msg.content === 'tak') {
+	  msg.channel.send(`Podaj swoj trade link! `)
+  }
+  if (msg.content === 'https://steamcommunity.com/tradeoffer/new/?partner=300605304&token=Q_HNgDIC') {
+	  msg.channel.send(`Czy mam wyslac do ciebie ten noz w prezencie? tak1/nie1 `)
+  }
+    if (msg.content === 'tak1') {
+	  msg.channel.send(`Lacze z botem steam.... `)
+  }
+    if (msg.content === 'nie1') {
+	  msg.channel.send(`To R.I.P trade! `)
+  }
+    if (msg.content === 'Lacze z botem steam....') {
+	  msg.channel.send(`Polaczono pomyslnie! `)
+  }
+    if (msg.content === 'Polaczono pomyslnie!') {
+	  msg.channel.send(`Czy chcesz potwierdzic wymiane? tak2/nie2? `)
+  }
+    if (msg.content === 'tak2') {
+	  msg.channel.send(`Noz zostal wyslany na tradelink: https://steamcommunity.com/tradeoffer/new/?partner=300605304&token=Q_HNgDIC `)
+  }
+    if (msg.content === 'Noz zostal wyslany na tradelink: https://steamcommunity.com/tradeoffer/new/?partner=300605304&token=Q_HNgDIC ')  {
+	  msg.channel.send(`Twoja kosa bd za 15minut w twoim ekwipunku! `)
+  }
+    if (msg.content === 'nie2') {
+	  msg.channel.send(`No to nie!`)
